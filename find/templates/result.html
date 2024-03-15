@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearby Food Trucks</title>
+</head>
+<body>
+    <h1>Nearby Food Trucks</h1>
+    <ul>
+        {% for truck, distance in nearby_trucks %}
+            <li>{{ truck.applicant }} ({{ distance }} miles)</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
