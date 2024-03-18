@@ -62,6 +62,13 @@ The application will be accessible at `http://localhost:8000`.
 2. Pick a point on the map to find nearby food trucks.
 3. View the list of nearby food trucks with their Facility Type, addresses, and Loaction Description.
 
+## API Documentation
+
+The API provides endpoints for accessing food truck data programmatically. Here are the available endpoints:
+
+GET /api/food-trucks/: Retrieves a list of all food trucks.
+
+
 ## Technologies Used
 
 - Django 4.2
