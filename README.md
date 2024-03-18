@@ -56,8 +56,7 @@ The application will be accessible at `http://localhost:8000`.
 
 1. Navigate to the homepage.
 2. Pick a point on the map to find nearby food trucks.
-3. View the list of nearby food trucks with their names, addresses, and services.
-4. Optionally, pick another point on the map to find different nearby food trucks.
+3. View the list of nearby food trucks with their Facility Type, addresses, and Loaction Description.
 
 ## Technologies Used
 
@@ -65,7 +64,6 @@ The application will be accessible at `http://localhost:8000`.
 - Python 3.x
 - HTML/CSS
 - JavaScript (Leaflet.js for map integration)
--folium
 
 ## Contributing
 
