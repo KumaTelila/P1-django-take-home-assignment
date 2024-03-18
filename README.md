@@ -66,9 +66,9 @@ The application will be accessible at `http://localhost:8000`.
 
 The API provides endpoints for accessing food truck data programmatically. Here are the available endpoints:
 ```bash
-GET /api/food-trucks/: Retrieves a list of all food trucks.
+GET /api/food-trucks/
 ```
-
+Retrieves a list of all food trucks.
 
 ## Technologies Used
 
