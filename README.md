@@ -35,6 +35,10 @@ pip install -r requirements.txt
 ### Set Up Database
 
 ```bash
+python manage.py makemigrations
+```
+
+```bash
 python manage.py migrate
 ```
 
