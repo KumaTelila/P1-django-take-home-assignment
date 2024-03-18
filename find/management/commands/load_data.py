@@ -14,6 +14,8 @@ class Command(BaseCommand):
                     facility_type=row['FacilityType'],
                     address=row['Address'],
                     latitude=float(row['Latitude']),
-                    longitude=float(row['Longitude'])
+                    longitude=float(row['Longitude']), 
+                    food_items = row['FoodItems'],
+                    location_description = row['LocationDescription']
                 )
         self.stdout.write(self.style.SUCCESS('Data loaded successfully'))

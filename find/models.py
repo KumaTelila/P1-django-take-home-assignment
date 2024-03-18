@@ -9,4 +9,6 @@ class FoodTruck(models.Model):
     address = models.CharField(max_length=255)
     latitude = models.FloatField()
     longitude = models.FloatField()
+    food_items = models.TextField()
+    location_description = models.TextField()
 
